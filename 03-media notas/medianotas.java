@@ -17,5 +17,6 @@ import java.util.Scanner;
          System.out.printf ("Situação: Aprovado"); }
     else {
         System.out.printf("Situação: Reprovado"); }
+    ler.close();
     }
 }
