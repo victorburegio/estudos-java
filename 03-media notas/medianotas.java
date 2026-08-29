@@ -15,8 +15,13 @@ import java.util.Scanner;
         System.out.printf("Aluno:%s %nMedia:%.2f%n", nome, media);
     if (media >= 7.0){
          System.out.printf ("Situação: Aprovado"); }
-    else {
-        System.out.printf("Situação: Reprovado"); }
-    ler.close();
+    else if(media >= 5.0){
+        System.out.printf("Situação: Recuperação");
     }
-}
+    else {
+        System.out.printf("Situação: Reprovado");}
+   
+ler.close();
+    }
+
+    }
